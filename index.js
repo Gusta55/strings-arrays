@@ -38,20 +38,21 @@ const emailDoUsuario = prompt("Digite o seu e-mail: ");
 console.log(`Seu nome é ${nomeDoUsuario}, e seu e-mail é ${emailDoUsuario}`);
 */
 
-/*
+
 //Exercicio 4
-const comidasFavoritas = ["batata_frita", "hamburguer", "lasanha", "xis", "pizza"];
+let comidasFavoritas = ["batata_frita", "hamburguer", "lasanha", "xis", "pizza"];
+console.log(comidasFavoritas)
 const comidasFavoritasUsuario = prompt("Digite sua comida favorita: ");
 comidasFavoritas[1] = comidasFavoritasUsuario;
 console.log(comidasFavoritas);
-ocnsole.log("Suas comidas favoritas são: "
-${comidasFavoritas[0]},
-${comidasFavoritas[0]},
-${comidasFavoritas[0]},
-${comidasFavoritas[0]},
-${comidasFavoritas[0]},
-);
-*/
+console.log(`Suas comidas favoritas são: 
+${comidasFavoritas[0]}
+${comidasFavoritas[1]}
+${comidasFavoritas[2]}
+${comidasFavoritas[3]}
+${comidasFavoritas[4]}
+`);
+
 
 /*
 //Exercicio 5
@@ -86,7 +87,7 @@ console.log(array)
 */
 
 //Desafio 2
-
+/*
 const frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"];
 console.log("o indice de abacaxi é: ", frutas.indexOf("Abacaxi"), "O tamanho da array é: ", frutas.length);
-
+*/
